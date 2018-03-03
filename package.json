@@ -1,0 +1,27 @@
+{
+  "name": "gifify-master",
+  "version": "2.4.0",
+  "description": "Convert any video file to an optimized animated GIF",
+  "main": "index.js",
+  "bin": {
+    "gifify": "bin/gifify"
+  },
+  "scripts": {
+    "example": "node gifityConvert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PraveenMistry/gifify.git"
+  },
+  "author": "Praveen Mistry",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "debug": "^2.5.2",
+    "gifify": "^2.4.1",
+    "moment": "^2.17.1",
+    "moment-duration-format": "^1.3.0",
+    "promise": "^7.1.1",
+    "whereis": "^0.4.0"
+  }
+}
